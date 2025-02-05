@@ -9,5 +9,5 @@ async function displayData(){
 	const delay=delayVal*1000;
 	let out=document.getElementById("output");
 	await new Promise(resolve => setTimeout(resolve, delay));
-	out.textContent=`"${value} - ${delayVal}"`;
+	out.textContent=`'${value} - ${delayVal}'`;
 }
